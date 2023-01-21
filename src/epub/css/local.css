@@ -96,3 +96,13 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
+blockquote + blockquote::before,
+div + *::before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
