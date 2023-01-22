@@ -75,6 +75,8 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Marie Bashkirtseff</dc:contributor>
 		<meta property="file-as" refines="#artist">Bashkirtseff, Marie</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Maria Konstantinovna Bashkirtseva</meta>
+		<meta property="alternate-script" refines="#artist">Мария Константиновна Башки́рцева</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Marie_Bashkirtseff</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82063575</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
