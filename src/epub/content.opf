@@ -65,7 +65,7 @@
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Story_of_the_Treasure_Seekers</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_the-story-of-the-treasure-seekers</meta>
-		<meta id="collection-N" property="belongs-to-collection">Bastable Children</meta>
+		<meta id="collection-1" property="belongs-to-collection">Bastable Children</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<dc:creator id="author">E. Nesbit</dc:creator>
