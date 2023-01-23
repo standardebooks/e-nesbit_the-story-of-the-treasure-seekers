@@ -54,11 +54,6 @@ p span.i1{
 	text-indent: -1em;
 }
 
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -67,14 +62,7 @@ p span.i2{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
 	text-align: justify;
 }
 
@@ -97,7 +85,6 @@ footer{
 	font-variant: small-caps;
 }
 
-blockquote + blockquote::before,
 div + *::before{
 	border-top: 1px solid;
 	content: "";
@@ -105,4 +92,38 @@ div + *::before{
 	height: 0;
 	margin: 1.5em auto;
 	width: 25%;
+}
+
+[epub|type~="z3998:song"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
 }
