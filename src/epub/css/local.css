@@ -102,10 +102,10 @@ div + *::before{
 	width: 25%;
 }
 
-body [xml|lang="fr"]{
+body [xml|lang]{
 	font-style: italic;
 }
 
-#chapter-8 span[xml|lang="en-GB"]{
+#chapter-8 span[xml|lang]{
 	font-style: normal;
 }
