@@ -81,7 +81,6 @@ div [epub|type~="bridgehead"]{
 header{
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 footer{
@@ -106,6 +105,16 @@ body [xml|lang]{
 	font-style: italic;
 }
 
+#chapter-5 blockquote:first-of-type p{
+	text-indent: 0;
+}
+
+#chapter-5 blockquote:first-of-type p:last-of-type,
+#chapter-9 blockquote header p:last-of-type{
+	font-style: italic;
+}
+
 #chapter-8 span[xml|lang]{
 	font-style: normal;
 }
+
