@@ -65,7 +65,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/770</dc:source>
 		<dc:source>https://archive.org/details/storyoftreasures00nesbrich</dc:source>
 		<meta property="se:word-count">54023</meta>
-		<meta property="se:reading-ease.flesch">79.6</meta>
+		<meta property="se:reading-ease.flesch">79.8</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Story_of_the_Treasure_Seekers</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_the-story-of-the-treasure-seekers</meta>
 		<dc:creator id="author">E. Nesbit</dc:creator>
