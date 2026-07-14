@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Story of the Treasure Seekers: Being the Adventures of the Bastable Children in Search of a Fortune</dc:title>
 		<meta property="file-as" refines="#fulltitle">Story of the Treasure Seekers, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Siblings -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Family life -- England -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Imagination -- Fiction</dc:subject>
