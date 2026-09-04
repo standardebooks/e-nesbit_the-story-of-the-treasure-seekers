@@ -37,11 +37,11 @@
 		<dc:title id="fulltitle">The Story of the Treasure Seekers: Being the Adventures of the Bastable Children in Search of a Fortune</dc:title>
 		<meta property="file-as" refines="#fulltitle">Story of the Treasure Seekers, The</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Siblings -- Fiction</dc:subject>
-		<dc:subject id="subject-2">Family life -- England -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Imagination -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Moneymaking projects -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Great Britain -- History -- 19th century -- Fiction </dc:subject>
+		<dc:subject id="subject-1">Siblings--Fiction</dc:subject>
+		<dc:subject id="subject-2">Family life--England--Fiction</dc:subject>
+		<dc:subject id="subject-3">Imagination--Fiction</dc:subject>
+		<dc:subject id="subject-4">Moneymaking projects--Fiction</dc:subject>
+		<dc:subject id="subject-5">Great Britain--History--19th century--Fiction </dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sj96004933</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
